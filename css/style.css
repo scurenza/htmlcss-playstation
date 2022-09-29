@@ -3,9 +3,54 @@ img{
     max-width: 100%;
 }
 
+html{
+    overflow-y:auto;
+}
+
+/* COMMON */
+.white{
+    background-color: white;
+}
+
 /* HEADER */
 /* Header top */
-.header-top{
-    height: 50px;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+} 
+
+.header-container{
+    margin: 0 8px 0;
+}
+
+.header-top img{
+    width: 100px;
+}
+
+/* Header bottom */
+.nav-item img{
+    width: 16px;
+}
+
+.chevron-hover{
+    display: none;
+}
+
+.nav-item:hover .chevron-hover{
+    display: inline-block;
+}
+
+.nav-item:hover .chevron{
+    display: none;
+}
+
+#cerca{
+    width: 30px;
+}
+
+/* MAIN */
+main{
+    margin-top: 130px;
 }
