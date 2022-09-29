@@ -80,3 +80,10 @@ main{
     margin: 0 auto;
 }
 
+/* Thumbnails */
+.thumbnails{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid red; 
+}
+
