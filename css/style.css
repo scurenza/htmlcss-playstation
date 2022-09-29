@@ -12,6 +12,14 @@ html{
     background-color: white;
 }
 
+h1{
+    font-size: 2.5rem;
+}
+
+.ms-bg-orange{
+    background-color: #cd3d0f;
+}
+
 /* HEADER */
 /* Header top */
 header {
@@ -54,3 +62,21 @@ header {
 main{
     margin-top: 130px;
 }
+
+/* Jumbotron */
+.jumbotron{
+    min-height: 700px;
+    /* width: 100%; */
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    object-position: center;
+}
+
+.jumbotron-container{
+    width: 90%;
+    min-height: 700px;
+    margin: 0 auto;
+}
+
