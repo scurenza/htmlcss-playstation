@@ -1,0 +1,11 @@
+/* RESET */
+img{
+    max-width: 100%;
+}
+
+/* HEADER */
+/* Header top */
+.header-top{
+    height: 50px;
+    width: 100%;
+}
