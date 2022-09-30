@@ -154,3 +154,27 @@ main{
     min-height: 700px;
 }
 
+/* Nuove uscite */
+.new-games{
+    background-color: #1f1f1f;
+    min-height: 600px;
+}
+
+.new-games-container{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 600px;
+}
+
+.new-games img{
+    border-radius: 20px;
+}
+
+/* Esplora */
+.explore-container{
+    padding-top: 5rem;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 600px;
+    
+}
