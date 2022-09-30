@@ -191,3 +191,10 @@ main{
     width: 90%;
     margin: 0 auto;
 }
+
+/* Sconti */
+.sales-container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
