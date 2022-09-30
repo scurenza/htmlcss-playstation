@@ -37,6 +37,9 @@ h1{
     background-color: #cd3d0f;
 }
 
+.ms_bg-grey{
+    background-color: #d9dadc;
+}
 /* HEADER */
 /* Header top */
 header {
@@ -177,4 +180,14 @@ main{
     margin: 0 auto;
     min-height: 600px;
     
+}
+
+/* Plus */
+.plus{
+    background-color: #bebcbb;
+}
+
+.plus-container{
+    width: 90%;
+    margin: 0 auto;
 }
