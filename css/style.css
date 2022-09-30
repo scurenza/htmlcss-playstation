@@ -21,6 +21,10 @@ html{
     background-color: #2d64e6;
 }
 
+.ms_bg-orange{
+    background-color: #cd3d0f;
+}
+
 .ms_bg-blue:hover{
     background-color: #2d65e6e1;
 }
@@ -40,6 +44,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 3;
 } 
 
 .header-container{
@@ -129,5 +134,23 @@ main{
 
 .buy h5{
     margin-bottom: 5rem;
+}
+
+/* Takes two */
+.takes-two{
+    min-height: 700px;
+    /* width: 100%; */
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    object-position: center;
+    padding-top: 5rem;
+}
+
+.takes-two-container{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 700px;
 }
 
