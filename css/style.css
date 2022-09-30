@@ -12,6 +12,19 @@ html{
     background-color: white;
 }
 
+.blue{
+    color: #0c89f0;
+    margin-bottom: 0;
+}
+
+.ms_bg-blue{
+    background-color: #2d64e6;
+}
+
+.ms_bg-blue:hover{
+    background-color: #2d65e6e1;
+}
+
 h1{
     font-size: 2.5rem;
 }
@@ -84,6 +97,37 @@ main{
 .thumbnails{
     width: 90%;
     margin: 0 auto;
-    border: 2px solid red; 
+}
+
+.thumbnails img{
+    border-radius: 20px;
+    padding: .1em;
+}
+
+.thumbnails img:hover{
+    border: 2px solid blue;
+}
+
+/* Buy */
+.buy{ 
+    padding-top: 7rem;
+}
+
+.buy-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.items{
+    opacity: 0.7;
+}
+
+.items:hover{
+    opacity: 1;
+    border-bottom: 2px solid blue;
+}
+
+.buy h5{
+    margin-bottom: 5rem;
 }
 
