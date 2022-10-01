@@ -198,3 +198,13 @@ main{
     margin: 0 auto;
     padding-top: 3rem;
 }
+
+/* Ps now */
+.ps-now{
+    background-color: #1f284a;
+}
+
+.ps-now-container{
+    width: 90%;
+    margin: 0 auto;
+}
