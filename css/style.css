@@ -208,3 +208,10 @@ main{
     width: 90%;
     margin: 0 auto;
 }
+
+/* Social */
+.social-container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 650px;
+}
